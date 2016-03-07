@@ -13,6 +13,8 @@ of KHK with their Wiscards.
   kappa
 - Run via /home/admin/soda-machine/bin/sodaserver
 - Set up as a systemd service on kappa in /etc/systemd/system/sodaserver.service
+- Note: The systemd service calls a script that uses a time delay to make sure
+  dependencies are running when the sodaserver binary is called
 
 ===WWW===
 - Creates a simple HTML output for purchase amounts made by each member on a
