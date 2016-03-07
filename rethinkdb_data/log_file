@@ -1,0 +1,89 @@
+2016-03-03T13:33:20.680901391 0.038415s notice: Recursively removing directory /home/admin/soda-machine/rethinkdb_data/tmp
+2016-03-03T13:33:20.706410015 0.063922s notice: Initializing directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T13:33:20.706527327 0.064039s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/admin/soda-machine/rethinkdb_data' did not already exist or is empty.)
+2016-03-03T13:33:20.706550498 0.064062s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-03T13:33:20.716567311 0.074082s notice: Running on Linux 4.4.1-2-ARCH x86_64
+2016-03-03T13:33:20.716627126 0.074139s notice: Loading data from directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T13:33:21.020361609 0.377874s info: Automatically using cache size of 3258 MB
+2016-03-03T13:33:21.038196943 0.395709s notice: Listening for intracluster connections on port 29015
+2016-03-03T13:33:21.042503351 0.400016s notice: Listening for client driver connections on port 28015
+2016-03-03T13:33:21.042918694 0.400431s notice: Listening for administrative HTTP connections on port 8080
+2016-03-03T13:33:21.042925505 0.400437s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-03T13:33:21.042927623 0.400439s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-03T13:33:21.042932416 0.400444s notice: Server ready, "kappa_chh" ed1a150b-6eec-4de6-97fe-c9689535092c
+2016-03-03T13:33:28.564588579 7.922101s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T13:33:28.564746146 7.922258s notice: Shutting down client connections...
+2016-03-03T13:33:28.564929370 7.922441s notice: All client connections closed.
+2016-03-03T13:33:28.564949009 7.922461s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T13:33:28.565366732 7.922879s notice: Storage engine shut down.
+2016-03-03T13:33:46.368041140 0.034004s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-03T13:33:46.379708358 0.045673s notice: Running on Linux 4.4.1-2-ARCH x86_64
+2016-03-03T13:33:46.379781579 0.045744s notice: Loading data from directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T13:33:46.477306844 0.143270s info: Automatically using cache size of 3256 MB
+2016-03-03T13:33:46.478641287 0.144604s notice: Listening for intracluster connections on port 29015
+2016-03-03T13:33:46.480647147 0.146609s notice: Listening for client driver connections on port 28015
+2016-03-03T13:33:46.481672617 0.147635s notice: Listening for administrative HTTP connections on port 8080
+2016-03-03T13:33:46.482242068 0.148204s notice: Listening on addresses: 127.0.0.1, 10.0.0.12, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-03T13:33:46.482253224 0.148215s notice: Server ready, "kappa_chh" ed1a150b-6eec-4de6-97fe-c9689535092c
+2016-03-03T13:36:24.491366665 158.157330s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T13:36:24.491545665 158.157508s notice: Shutting down client connections...
+2016-03-03T13:36:24.491617686 158.157580s notice: All client connections closed.
+2016-03-03T13:36:24.491622427 158.157585s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T13:36:24.492086426 158.158049s notice: Storage engine shut down.
+2016-03-03T15:10:40.620807814 0.007579s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-03T15:10:40.632309481 0.019083s notice: Running on Linux 4.4.1-2-ARCH x86_64
+2016-03-03T15:10:40.632366420 0.019138s notice: Loading data from directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T15:10:40.739124622 0.125897s info: Automatically using cache size of 3250 MB
+2016-03-03T15:10:40.739824532 0.126597s notice: Listening for intracluster connections on port 29015
+2016-03-03T15:10:40.744032655 0.130804s notice: Listening for client driver connections on port 28015
+2016-03-03T15:10:40.744232455 0.131004s notice: Listening for administrative HTTP connections on port 8080
+2016-03-03T15:10:40.744237029 0.131008s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-03T15:10:40.744238218 0.131010s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-03T15:10:40.744240526 0.131012s notice: Server ready, "kappa_chh" ed1a150b-6eec-4de6-97fe-c9689535092c
+2016-03-03T15:10:53.443120643 12.829893s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T15:10:53.443260226 12.830032s notice: Shutting down client connections...
+2016-03-03T15:10:53.443401671 12.830173s notice: All client connections closed.
+2016-03-03T15:10:53.443406667 12.830178s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T15:10:53.443858562 12.830630s notice: Storage engine shut down.
+2016-03-03T15:11:09.911851884 0.007780s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-03T15:11:09.921950739 0.017881s notice: Running on Linux 4.4.1-2-ARCH x86_64
+2016-03-03T15:11:09.922020325 0.017947s notice: Loading data from directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T15:11:10.037776574 0.133704s info: Automatically using cache size of 3250 MB
+2016-03-03T15:11:10.039002453 0.134930s notice: Listening for intracluster connections on port 29015
+2016-03-03T15:11:10.040200311 0.136128s notice: Listening for client driver connections on port 28015
+2016-03-03T15:11:10.040955743 0.136883s notice: Listening for administrative HTTP connections on port 8080
+2016-03-03T15:11:10.041192348 0.137120s notice: Listening on addresses: 127.0.0.1, 10.0.0.12, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-03T15:11:10.041194690 0.137122s notice: Server ready, "kappa_chh" ed1a150b-6eec-4de6-97fe-c9689535092c
+2016-03-03T15:11:37.722893776 27.818822s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T15:11:37.723068205 27.818996s notice: Shutting down client connections...
+2016-03-03T15:11:37.723159781 27.819087s notice: All client connections closed.
+2016-03-03T15:11:37.723164716 27.819092s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T15:11:37.723662411 27.819590s notice: Storage engine shut down.
+2016-03-03T15:26:40.027702532 0.008267s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-03T15:26:40.036500310 0.017068s notice: Running on Linux 4.4.1-2-ARCH x86_64
+2016-03-03T15:26:40.036569962 0.017134s notice: Loading data from directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T15:26:40.145103837 0.125669s info: Automatically using cache size of 3250 MB
+2016-03-03T15:26:40.146311795 0.126877s notice: Listening for intracluster connections on port 29015
+2016-03-03T15:26:40.147422640 0.127987s notice: Listening for client driver connections on port 28015
+2016-03-03T15:26:40.148165577 0.128730s notice: Listening for administrative HTTP connections on port 8080
+2016-03-03T15:26:40.148551077 0.129116s notice: Listening on addresses: 127.0.0.1, 10.0.0.12, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-03T15:26:40.148552925 0.129117s notice: Server ready, "kappa_chh" ed1a150b-6eec-4de6-97fe-c9689535092c
+2016-03-03T15:27:17.038084701 37.018650s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T15:27:17.038239063 37.018804s notice: Shutting down client connections...
+2016-03-03T15:27:17.038366273 37.018931s notice: All client connections closed.
+2016-03-03T15:27:17.038371540 37.018936s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T15:27:17.038832070 37.019397s notice: Storage engine shut down.
+2016-03-03T15:27:58.469781891 0.008184s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-03T15:27:58.480524629 0.018929s notice: Running on Linux 4.4.1-2-ARCH x86_64
+2016-03-03T15:27:58.480595234 0.018997s notice: Loading data from directory /home/admin/soda-machine/rethinkdb_data
+2016-03-03T15:27:58.588114613 0.126516s info: Automatically using cache size of 3250 MB
+2016-03-03T15:27:58.589329387 0.127731s notice: Listening for intracluster connections on port 29015
+2016-03-03T15:27:58.590537464 0.128939s notice: Listening for client driver connections on port 28015
+2016-03-03T15:27:58.591245092 0.129647s notice: Listening for administrative HTTP connections on port 8080
+2016-03-03T15:27:58.591639684 0.130041s notice: Listening on addresses: 127.0.0.1, 10.0.0.12, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-03T15:27:58.591645502 0.130047s notice: Server ready, "kappa_chh" ed1a150b-6eec-4de6-97fe-c9689535092c
+2016-03-03T15:53:04.222813955 1505.761216s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-03-03T15:53:04.222980671 1505.761382s notice: Shutting down client connections...
+2016-03-03T15:53:04.223441401 1505.761844s notice: All client connections closed.
+2016-03-03T15:53:04.223460781 1505.761862s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-03T15:53:04.223881322 1505.762283s notice: Storage engine shut down.
