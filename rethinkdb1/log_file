@@ -822,3 +822,29 @@
 2016-03-06T21:23:42.660813267 3.725291s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 42. Latest log index is 128.
 2016-03-06T21:23:43.465544071 4.530022s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 42.
 2016-03-06T21:23:43.587828578 4.652306s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 42. Latest log index is 129.
+2016-03-07T09:11:44.920866602 42485.985344s notice: Someone asked for the nonwhitelisted file "/nice%20ports%2C/Tri%6Eity.txt%2ebak".  If this should be accessible, add it to the static web assets.
+2016-03-07T09:13:20.683409729 42581.747888s notice: Someone asked for the nonwhitelisted file "/.git/HEAD".  If this should be accessible, add it to the static web assets.
+2016-03-07T09:13:21.372497683 42582.436975s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2016-03-07T09:13:21.470309872 42582.534788s notice: Someone asked for the nonwhitelisted file "/nmaplowercheck1457385241".  If this should be accessible, add it to the static web assets.
+2016-03-07T09:13:21.675492020 42582.739969s notice: Someone asked for the nonwhitelisted file "/HNAP1".  If this should be accessible, add it to the static web assets.
+2016-03-09T11:52:44.924146520 224945.988624s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-03-09T11:52:44.924269570 224945.988747s notice: Shutting down client connections...
+2016-03-09T11:52:44.924626646 224945.989104s notice: All client connections closed.
+2016-03-09T11:52:44.924680088 224945.989157s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-09T11:52:44.929635353 224945.994113s notice: Storage engine shut down.
+2016-03-09T11:52:44.930511159 224945.994988s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-03-09T11:53:11.892709046 0.529544s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-09T11:53:11.954715102 0.591557s notice: Running on Linux 4.4.3-1-ARCH x86_64
+2016-03-09T11:53:11.954836493 0.591672s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-09T11:53:12.841506433 1.478342s info: Automatically using cache size of 3268 MB
+2016-03-09T11:53:12.987990342 1.624826s notice: Listening for intracluster connections on port 29015
+2016-03-09T11:53:14.054999458 2.691835s notice: Listening for client driver connections on port 28015
+2016-03-09T11:53:14.055237221 2.692072s notice: Listening for administrative HTTP connections on port 8080
+2016-03-09T11:53:14.056120041 2.692955s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-09T11:53:14.056136544 2.692971s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-09T11:53:14.155147162 2.791983s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-09T11:53:15.265670628 3.902506s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 43.
+2016-03-09T11:53:15.313366204 3.950201s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 43. Latest log index is 132.
+2016-03-09T11:53:15.863110414 4.499946s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 43.
+2016-03-09T11:53:15.963445194 4.600281s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 43. Latest log index is 131.
+2016-03-10T10:15:41.240650176 80549.877486s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Configuration is changing.
