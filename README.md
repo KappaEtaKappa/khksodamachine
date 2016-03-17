@@ -5,7 +5,7 @@ The soda machine uses a RethinkDB to keep track of purchases made by members
 of KHK with their Wiscards.
 - Contains two tables (members and purchases)
 - Run via rethinkdb --directory /home/admin/rethinkdb1
-- Can access administration tools at kappa on port 8080
+- Can access administration tools at kappa on port 5000
 - Set up as a systemd service on kappa in /etc/systemd/system/rethink.service
 
 ===SODASERVER===
@@ -19,14 +19,14 @@ of KHK with their Wiscards.
 ===WWW===
 - Creates a simple HTML output for purchase amounts made by each member on a
   monthly basis
-- Accessed on kappa on port 8082
+- Accessed on kappa on port 5002
 - Set up as a systemd service on kappa in /etc/systemd/system/sodawww.service
 
 ===CHATEAU===
 - GUI tool to make managing the RethinkDB easier
-- Accessed at kappa on port 8081
+- Accessed at kappa on port 5001
 - Set up as a systemd service on kappa in /etc/systemd/system/chateau.service
 
 Note: For security purposes, the ports that chateau and the database web
-administration tools run on (8081 and 8082) can only be accessed via a socks
+administration tools run on (5001 and 5002) can only be accessed via a socks
 proxy. See https://www.rethinkdb.com/docs/security/ for details.
