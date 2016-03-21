@@ -31,18 +31,21 @@ router.get('/usage', function(req, res) {
 	        var months = [];
 	        for (var i = 0; i < 12; i++) {
 	        	var m = moment().subtract(i,"month");
-        		var myMonth = moment(m).days(0).hours(0).minutes(0);
+        		var myMonth = moment(m).startOf("month");
+
+			var startOfMonth = moment().subtract(i, "month").startOf("month");
+			var endOfMonth = moment().subtract(i, "month").endOf("month");
 	        	var mmmmyyyy = m.format("MMMM YYYY");
 	        	var usage = {};
 	        	for (var j = 0; j < purchases.length; j++) {
 	        		var name = purchases[j].name;
 	        		var pm = moment(purchases[j].timestamp);
-	        		var a = pm.valueOf() > myMonth.valueOf();
-	        		var b = pm.valueOf() < moment(myMonth).add(1, "month").valueOf();
-	        		console.log(mmmmyyyy);
-	        		console.log(moment(myMonth).format());
-	        		console.log(pm.format());
-	        		console.log(moment(myMonth).add(1, "month").format());
+	        		var a = pm.valueOf() > startOfMonth.valueOf();
+	        		var b = pm.valueOf() < endOfMonth.valueOf();
+	        		// console.log(mmmmyyyy);
+	        		// console.log(moment(myMonth).format());
+	        		// console.log(pm.format());
+	        		// console.log(moment(myMonth).add(1, "month").format());
 	        		if (a && b) {
 	        			if (name in usage) {
 	        				usage[name] += purchases[j].amount;
@@ -54,7 +57,7 @@ router.get('/usage', function(req, res) {
 	        	var month = {
 	        		name: mmmmyyyy,
 	        		usage: usage
-	        	}
+	        	};
 	        	months.push(month);
 	        }
   			res.render('usage', { months: months });
