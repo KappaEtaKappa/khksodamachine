@@ -30,6 +30,8 @@ router.get('/usage', function(req, res) {
 	        console.log(purchases);
 	        var months = [];
 	        for (var i = 0; i < 12; i++) {
+			var m = moment().subtract(i, "month");
+
 			var startOfMonth = moment().subtract(i, "month").startOf("month");
 			var endOfMonth = moment().subtract(i, "month").endOf("month");
 	        	var mmmmyyyy = m.format("MMMM YYYY");

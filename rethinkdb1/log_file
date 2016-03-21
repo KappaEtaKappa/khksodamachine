@@ -1128,3 +1128,97 @@
 2016-03-21T16:41:49.783596626 4.597419s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 57. Latest log index is 179.
 2016-03-21T16:41:49.839593823 4.653416s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 57.
 2016-03-21T16:41:49.867013783 4.680836s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 57. Latest log index is 178.
+2016-03-21T16:58:32.341186329 0.437637s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-21T16:58:32.486837591 0.583294s notice: Running on Linux 4.4.5-1-ARCH x86_64
+2016-03-21T16:58:32.486968808 0.583419s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-21T16:58:33.232044059 1.328494s info: Automatically using cache size of 3269 MB
+2016-03-21T16:58:33.343260408 1.439711s notice: Listening for intracluster connections on port 29015
+2016-03-21T16:58:34.902762888 2.999213s notice: Listening for client driver connections on port 28015
+2016-03-21T16:58:34.903002479 2.999452s notice: Listening for administrative HTTP connections on port 5000
+2016-03-21T16:58:34.903382714 2.999833s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-21T16:58:34.903389718 2.999839s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-21T16:58:35.003365262 3.099816s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-21T16:58:36.125621240 4.222072s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 58.
+2016-03-21T16:58:36.140025530 4.236476s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 58. Latest log index is 181.
+2016-03-21T16:58:36.576635844 4.673086s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 58.
+2016-03-21T16:58:36.598462957 4.694913s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 58. Latest log index is 182.
+2016-03-21T17:08:10.158070309 578.254520s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-03-21T17:08:10.158140063 578.254590s notice: Shutting down client connections...
+2016-03-21T17:08:10.158273621 578.254723s notice: All client connections closed.
+2016-03-21T17:08:10.158275353 578.254725s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-21T17:08:10.163954029 578.260404s notice: Storage engine shut down.
+2016-03-21T17:08:10.164513702 578.260964s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-03-21T17:08:51.918090895 0.422255s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-21T17:08:52.037062031 0.541233s notice: Running on Linux 4.4.5-1-ARCH x86_64
+2016-03-21T17:08:52.037840086 0.542004s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-21T17:08:52.707935137 1.212099s info: Automatically using cache size of 3272 MB
+2016-03-21T17:08:52.903118432 1.407282s notice: Listening for intracluster connections on port 29015
+2016-03-21T17:08:54.537967238 3.042131s notice: Listening for client driver connections on port 28015
+2016-03-21T17:08:54.538185758 3.042349s notice: Listening for administrative HTTP connections on port 5000
+2016-03-21T17:08:54.539425171 3.043589s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-21T17:08:54.539429045 3.043592s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-21T17:08:54.631611503 3.135775s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-21T17:08:55.561538809 4.065703s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 59.
+2016-03-21T17:08:55.573850055 4.078014s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 59. Latest log index is 185.
+2016-03-21T17:08:56.291775079 4.795939s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 59.
+2016-03-21T17:08:56.307092520 4.811256s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 59. Latest log index is 184.
+2016-03-21T17:12:24.099602082 212.603766s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-03-21T17:12:24.099723897 212.603887s notice: Shutting down client connections...
+2016-03-21T17:12:24.101321734 212.605485s notice: All client connections closed.
+2016-03-21T17:12:24.101401987 212.605565s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-21T17:12:24.106371070 212.610535s notice: Storage engine shut down.
+2016-03-21T17:12:24.107003702 212.611167s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-03-21T17:13:06.337290791 0.379944s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-21T17:13:06.399164731 0.441823s notice: Running on Linux 4.4.5-1-ARCH x86_64
+2016-03-21T17:13:06.399288782 0.441942s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-21T17:13:08.351023700 2.393678s info: Automatically using cache size of 3264 MB
+2016-03-21T17:13:08.396206034 2.438860s notice: Listening for intracluster connections on port 29015
+2016-03-21T17:13:08.949030197 2.991684s notice: Listening for client driver connections on port 28015
+2016-03-21T17:13:08.949237058 2.991890s notice: Listening for administrative HTTP connections on port 5000
+2016-03-21T17:13:08.949904376 2.992558s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-21T17:13:08.949908347 2.992561s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-21T17:13:09.051469604 3.094123s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-21T17:13:10.737042939 4.779696s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 60.
+2016-03-21T17:13:10.754764029 4.797418s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 60. Latest log index is 188.
+2016-03-21T17:13:10.824218024 4.866872s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 60.
+2016-03-21T17:13:10.837989241 4.880643s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 60. Latest log index is 187.
+2016-03-21T17:19:50.628454304 404.671108s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-03-21T17:19:50.628748735 404.671402s notice: Shutting down client connections...
+2016-03-21T17:19:50.629156646 404.671810s notice: All client connections closed.
+2016-03-21T17:19:50.629237400 404.671891s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-21T17:19:50.634154849 404.676808s notice: Storage engine shut down.
+2016-03-21T17:19:50.634720606 404.677374s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-03-21T17:20:33.124485443 0.522463s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-21T17:20:33.350839696 0.748821s notice: Running on Linux 4.4.5-1-ARCH x86_64
+2016-03-21T17:20:33.350911134 0.748888s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-21T17:20:35.212098433 2.610076s info: Automatically using cache size of 3259 MB
+2016-03-21T17:20:35.274227281 2.672204s notice: Listening for intracluster connections on port 29015
+2016-03-21T17:20:36.019072326 3.417050s notice: Listening for client driver connections on port 28015
+2016-03-21T17:20:36.019287007 3.417264s notice: Listening for administrative HTTP connections on port 5000
+2016-03-21T17:20:36.019763341 3.417740s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-21T17:20:36.019764836 3.417742s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-21T17:20:36.126241740 3.524219s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-21T17:20:37.241841475 4.639819s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 61.
+2016-03-21T17:20:37.299824851 4.697802s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 61. Latest log index is 190.
+2016-03-21T17:20:37.376904790 4.774882s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 61.
+2016-03-21T17:20:37.466564679 4.864542s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 61. Latest log index is 192.
+2016-03-21T17:30:33.299178349 600.697156s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-03-21T17:30:33.299328149 600.697305s notice: Shutting down client connections...
+2016-03-21T17:30:33.299744872 600.697723s notice: All client connections closed.
+2016-03-21T17:30:33.299833619 600.697811s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-21T17:30:33.304984991 600.702962s notice: Storage engine shut down.
+2016-03-21T17:30:33.305632620 600.703610s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-03-21T17:31:16.141869413 0.415021s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-21T17:31:16.209724765 0.482880s notice: Running on Linux 4.4.5-1-ARCH x86_64
+2016-03-21T17:31:16.209825286 0.482976s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-21T17:31:17.904192037 2.177343s info: Automatically using cache size of 3256 MB
+2016-03-21T17:31:17.974340259 2.247491s notice: Listening for intracluster connections on port 29015
+2016-03-21T17:31:18.793736561 3.066888s notice: Listening for client driver connections on port 28015
+2016-03-21T17:31:18.794091617 3.067242s notice: Listening for administrative HTTP connections on port 5000
+2016-03-21T17:31:18.795491652 3.068642s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-21T17:31:18.795493481 3.068644s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-21T17:31:18.893253818 3.166405s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-21T17:31:20.295868559 4.569020s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 62.
+2016-03-21T17:31:20.350899483 4.624051s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 62. Latest log index is 193.
+2016-03-21T17:31:20.730774038 5.003925s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 62.
+2016-03-21T17:31:20.831883674 5.105034s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 62. Latest log index is 195.
