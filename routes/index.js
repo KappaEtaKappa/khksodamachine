@@ -30,9 +30,6 @@ router.get('/usage', function(req, res) {
 	        console.log(purchases);
 	        var months = [];
 	        for (var i = 0; i < 12; i++) {
-	        	var m = moment().subtract(i,"month");
-        		var myMonth = moment(m).startOf("month");
-
 			var startOfMonth = moment().subtract(i, "month").startOf("month");
 			var endOfMonth = moment().subtract(i, "month").endOf("month");
 	        	var mmmmyyyy = m.format("MMMM YYYY");
@@ -42,10 +39,6 @@ router.get('/usage', function(req, res) {
 	        		var pm = moment(purchases[j].timestamp);
 	        		var a = pm.valueOf() > startOfMonth.valueOf();
 	        		var b = pm.valueOf() < endOfMonth.valueOf();
-	        		// console.log(mmmmyyyy);
-	        		// console.log(moment(myMonth).format());
-	        		// console.log(pm.format());
-	        		// console.log(moment(myMonth).add(1, "month").format());
 	        		if (a && b) {
 	        			if (name in usage) {
 	        				usage[name] += purchases[j].amount;
