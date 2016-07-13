@@ -1,0 +1,9 @@
+[Unit]
+Description=Runs soda www usage program
+After=network-online.target dhcpcd.service sodaserver.service
+
+[Service]
+ExecStart=/home/admin/khk-soda-machine/bin/www
+
+[Install]
+WantedBy=multi-user.target
