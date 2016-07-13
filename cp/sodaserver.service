@@ -1,0 +1,13 @@
+[Unit]
+Description=Runs sodaserver program
+Type=forking
+After=network-online.target dhcpcd.service rethink.service
+
+[Service]
+ExecStart=/home/admin/khk-soda-machine/soda.sh
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

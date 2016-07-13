@@ -1222,3 +1222,48 @@
 2016-03-21T17:31:20.350899483 4.624051s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 62. Latest log index is 193.
 2016-03-21T17:31:20.730774038 5.003925s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 62.
 2016-03-21T17:31:20.831883674 5.105034s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 62. Latest log index is 195.
+2016-03-21T17:33:03.679127607 107.952278s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-03-21T17:33:03.679186440 107.952337s notice: Shutting down client connections...
+2016-03-21T17:33:03.714088111 107.987239s notice: All client connections closed.
+2016-03-21T17:33:03.714105880 107.987256s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-21T17:33:03.760131208 108.033282s notice: Storage engine shut down.
+2016-03-21T17:33:03.769357714 108.042509s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-03-21T17:33:45.075510427 0.546384s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-03-21T17:33:45.161394351 0.632271s notice: Running on Linux 4.4.5-1-ARCH x86_64
+2016-03-21T17:33:45.161470316 0.632343s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-03-21T17:33:47.214017363 2.684891s info: Automatically using cache size of 3258 MB
+2016-03-21T17:33:47.258795335 2.729669s notice: Listening for intracluster connections on port 29015
+2016-03-21T17:33:47.686156158 3.157030s notice: Listening for client driver connections on port 28015
+2016-03-21T17:33:47.686392390 3.157266s notice: Listening for administrative HTTP connections on port 5000
+2016-03-21T17:33:47.688017158 3.158891s notice: Listening on addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-03-21T17:33:47.688028225 3.158901s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-03-21T17:33:47.806321263 3.277196s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-03-21T17:33:49.478908872 4.949783s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 63.
+2016-03-21T17:33:49.536352878 5.007227s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 63. Latest log index is 196.
+2016-03-21T17:33:49.544333542 5.015207s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 63.
+2016-03-21T17:33:49.678142437 5.149016s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 63. Latest log index is 198.
+2016-03-28T17:33:48.509645511 604803.980519s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-28T19:47:14.893315715 612810.364190s notice: Someone asked for the nonwhitelisted file "/nice%20ports%2C/Tri%6Eity.txt%2ebak".  If this should be accessible, add it to the static web assets.
+2016-03-28T21:02:06.524466636 617301.995341s notice: Someone asked for the nonwhitelisted file "/nice%20ports%2C/Tri%6Eity.txt%2ebak".  If this should be accessible, add it to the static web assets.
+2016-04-25T23:32:03.541332569 3024003.743922s notice: A newer version of the RethinkDB server is available: 2.3.1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-05-06T23:32:03.382736080 3974403.585326s notice: A newer version of the RethinkDB server is available: 2.3.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-01T23:32:03.504569403 6220803.707159s notice: A newer version of the RethinkDB server is available: 2.3.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-10T23:32:03.415230045 6998403.617820s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-07-10T09:09:57.413915706 1.280999s notice: Running rethinkdb 2.3.1 (GCC 5.3.0)...
+2016-07-10T09:09:57.905767741 1.772856s notice: Running on Linux 4.6.3-1-ARCH x86_64
+2016-07-10T09:09:57.905913176 1.772995s notice: Loading data from directory /home/admin/soda-machine/rethinkdb1
+2016-07-10T09:09:58.543449162 2.410532s notice: Migrating cluster metadata to v2.3
+2016-07-10T09:09:59.467328389 3.334411s info: Automatically using cache size of 3239 MB
+2016-07-10T09:09:59.600156836 3.467240s notice: Listening for intracluster connections on port 29015
+2016-07-10T09:10:01.103870061 4.970953s notice: Listening for client driver connections on port 28015
+2016-07-10T09:10:01.104138373 4.971221s notice: Listening for administrative HTTP connections on port 5000
+2016-07-10T09:10:01.105047958 4.972131s notice: Listening on cluster addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-07-10T09:10:01.105519418 4.972602s notice: Listening on driver addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-07-10T09:10:01.105942613 4.973025s notice: Listening on http addresses: 127.0.0.1, ::1, fe80::5aa8:acbb:d150:e927%2
+2016-07-10T09:10:01.105958661 4.973041s notice: Server ready, "KAPPA" 65a24a39-d5e9-4e5e-88ec-639bc51fac68
+2016-07-10T09:10:01.817944075 5.685027s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-07-10T09:10:02.068879956 5.935963s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: Starting a new Raft election for term 64.
+2016-07-10T09:10:02.119240516 5.986323s info: Table ce5d02f1-a1fe-4959-a8f9-677d46db248b: This server is Raft leader for term 64. Latest log index is 201.
+2016-07-10T09:10:02.312386945 6.179470s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: Starting a new Raft election for term 64.
+2016-07-10T09:10:02.395291954 6.262374s info: Table a6900e2e-684d-4a50-a8e1-ee06bbb6a247: This server is Raft leader for term 64. Latest log index is 199.
+2016-07-11T09:10:01.621438188 86405.488521s notice: A newer version of the RethinkDB server is available: 2.3.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.

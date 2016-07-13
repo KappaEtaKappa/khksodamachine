@@ -1,0 +1,10 @@
+[Unit]
+Description=Start RethinkDB for soda machineS
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+ExecStart=/usr/bin/rethinkdb --directory /home/admin/khk-soda-machine/rethinkdb1 --http-port 5000 --bind all
+
+[Install]
+WantedBy=multi-user.target
